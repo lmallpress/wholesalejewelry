@@ -1,2 +1,1 @@
-# moscow
 test# wholesalejewelry
