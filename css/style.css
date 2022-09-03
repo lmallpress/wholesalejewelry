@@ -139,8 +139,9 @@ body {
 .section-padding {
   padding: 0 24px !important;
 }
+
 .section-padding.section-padding-right-none {
-	padding-right:0 !important;
+  padding-right: 0 !important;
 }
 
 .container {
@@ -172,7 +173,7 @@ body {
 }
 
 .main-picture {
-  background-image: url("http://via.placeholder.com/594x1032");
+  background-image: url("images/jewelrySilver.jpg");
   padding: 0;
   margin-top: 24px;
   margin-left: 24px;
@@ -210,10 +211,10 @@ body.dark .personal-info h6,
 body.dark .personal-info ul li span,
 body.dark .resume-content h6,
 body.dark .bl-main>section:nth-child(4).bl-expand .contact .rightside h6,
-body.blog.dark  article h4,
+body.blog.dark article h4,
 body.blog.dark .sidebar .widget-title,
 body.dark div.bl-panel-items>div,
-body.blog.dark .widget-tags ul > li a:hover {
+body.blog.dark .widget-tags ul>li a:hover {
   color: #fff;
 }
 
@@ -270,7 +271,8 @@ body.dark .resume-list-item-title {
   color: #888;
 }
 
-body.dark #bl-work-items>div a, body.dark .bl-main>section:nth-child(4).bl-expand .contact .leftside {
+body.dark #bl-work-items>div a,
+body.dark .bl-main>section:nth-child(4).bl-expand .contact .leftside {
   border: 1px solid #333;
 }
 
@@ -284,27 +286,28 @@ body.dark .bl-main>section:nth-child(4).bl-expand .contact .rightside .input-fie
   color: #fff !important;
   border-bottom: 1px solid #666;
 }
+
 body.dark div.bl-panel-items>div>div hr {
-	background: #333;
+  background: #333;
 }
 
 body.blog.dark p,
-body.blog.dark  .meta span {
+body.blog.dark .meta span {
   color: #eee;
 }
 
-body.blog.dark  .widget {
+body.blog.dark .widget {
   background-color: #333;
 }
 
-body.blog.dark  .widget.recent-posts ul li,
-body.blog.dark  .sidebar ul.nav-tabs li,
-body.blog.dark  .comments-list .comment:not(.last) {
+body.blog.dark .widget.recent-posts ul li,
+body.blog.dark .sidebar ul.nav-tabs li,
+body.blog.dark .comments-list .comment:not(.last) {
   border-bottom: 1px solid #555;
 }
 
 body.blog.dark .sidebar ul.nav-tabs li a,
-body.blog.dark .widget-tags ul > li a {
+body.blog.dark .widget-tags ul>li a {
   color: #aaa;
 }
 
@@ -327,17 +330,17 @@ body.blog.dark .widget.recent-posts ul li:last-child {
   margin-bottom: 0;
 }
 
-body.blog.dark .comments-form  form .input-field label {
+body.blog.dark .comments-form form .input-field label {
   color: #eee;
 }
 
-body.blog.dark .comments-form  form .input-field label.active {
+body.blog.dark .comments-form form .input-field label.active {
   color: #eee !important;
 }
 
-body.blog.dark .comments-form  form .input-field input[type=text],
-body.blog.dark .comments-form  form .input-field input[type=email],
-body.blog.dark .comments-form  form .input-field textarea {
+body.blog.dark .comments-form form .input-field input[type=text],
+body.blog.dark .comments-form form .input-field input[type=email],
+body.blog.dark .comments-form form .input-field textarea {
   color: #fff !important;
   border-bottom: 1px solid #555;
 }
@@ -354,7 +357,7 @@ body.blog.dark .comments-list .comment-date {
 
 body.dark div.bl-panel-items>div>div img,
 body.dark .carousel.carousel-slider,
-body.dark .videocontainer, 
+body.dark .videocontainer,
 body.dark .responsive-video {
   border: 1px solid #333;
 }
@@ -944,7 +947,8 @@ section.bl-expand .bl-icon-close {
   margin-top: 0;
 }
 
-.resume-card-body.experience .resume-content h6, .resume-card-body.education .resume-content h6 {
+.resume-card-body.experience .resume-content h6,
+.resume-card-body.education .resume-content h6 {
   margin-bottom: 10px;
 }
 
@@ -1129,7 +1133,7 @@ div.bl-panel-items>div>div ul.project-details li {
   padding-bottom: 12px;
 }
 
-div.bl-panel-items>div>div ul.project-details li  i {
+div.bl-panel-items>div>div ul.project-details li i {
   padding-right: 10px;
 }
 
@@ -1368,8 +1372,8 @@ ul.social-intro {
 
 .social-intro li {
   display: inline-block;
-   margin-right: 14px;
-   float: left;
+  margin-right: 14px;
+  float: left;
 }
 
 ul.social-intro li a {
@@ -1437,9 +1441,11 @@ ul.social-intro li a {
   font-size: 15px;
   transition: 0.3s ease-in-out;
 }
+
 .bl-main>section:nth-child(4).bl-expand .contact .rightside .input-field textarea {
-	height:106px;
+  height: 106px;
 }
+
 .bl-main>section:nth-child(4).bl-expand .contact .rightside form .input-field input[type=text],
 .bl-main>section:nth-child(4).bl-expand .contact .rightside form .input-field input[type=email],
 .bl-main>section:nth-child(4).bl-expand .contact .rightside form .input-field textarea {
@@ -1591,7 +1597,7 @@ body.blog .meta span {
 }
 
 body.blog .meta i {
-	padding-right:6px;
+  padding-right: 6px;
 }
 
 /* Pagination */
@@ -1708,24 +1714,24 @@ body.blog .pagination li a i {
   margin: 20px 0 10px;
 }
 
-.comments-form  form .input-field input[type=text],
-.comments-form  form .input-field input[type=email],
-.comments-form  form .input-field textarea {
+.comments-form form .input-field input[type=text],
+.comments-form form .input-field input[type=email],
+.comments-form form .input-field textarea {
   border-bottom: 1px solid #ddd;
   margin-left: 40px;
   width: calc(100% - 2.5rem);
 }
 
-.comments-form  .input-field label {
+.comments-form .input-field label {
   color: #666;
   margin-left: 38px;
 }
 
-.comments-form  .input-field label.active {
+.comments-form .input-field label.active {
   color: #666 !important;
 }
 
-.comments-form  .input-field input[type=text]:focus+label {
+.comments-form .input-field input[type=text]:focus+label {
   color: #666;
 }
 
@@ -1743,23 +1749,23 @@ body.blog .pagination li a i {
 }
 
 .comments-form .input-field input[type=text].invalid,
-.comments-form  .input-field input[type=email].invalid {
+.comments-form .input-field input[type=email].invalid {
   border-bottom: 1px solid #dc3545;
   box-shadow: none !important;
 }
 
-.comments-form  form .input-field i.prefix {
+.comments-form form .input-field i.prefix {
   font-size: 22px;
   top: 7px;
   color: #ccc;
   width: 1em;
 }
 
-.comments-form  form .input-field label {
+.comments-form form .input-field label {
   font-size: 15px;
 }
 
-.comments-form  .input-field {
+.comments-form .input-field {
   margin-bottom: 24px;
 }
 
@@ -1873,12 +1879,12 @@ body.blog .pagination li a i {
 
 /* Tags Widget */
 
-.widget-tags ul > li {
+.widget-tags ul>li {
   display: inline-block;
   margin: 6px 6px 6px 0;
 }
 
-.widget-tags ul > li a {
+.widget-tags ul>li a {
   color: #656c6d;
   font-family: 'Lato', sans-serif;
   border: 1px solid #d6d6d6;
@@ -1889,7 +1895,7 @@ body.blog .pagination li a i {
   transition: 0.1s;
 }
 
-.widget-tags ul > li a:hover {
+.widget-tags ul>li a:hover {
   color: #fff;
   border: 1px solid transparent;
 }
@@ -1921,11 +1927,13 @@ body.blog .pagination li a i {
     font-size: 25px;
   }
 }
-@media (max-width: 992px) and (min-width:601px){
-	.profile-picture.section-padding {
-		padding-right:0 !important;
-	}
+
+@media (max-width: 992px) and (min-width:601px) {
+  .profile-picture.section-padding {
+    padding-right: 0 !important;
+  }
 }
+
 @media (max-width: 992px) {
   .bl-main {
     width: calc(100% - 24px);
@@ -1977,15 +1985,17 @@ body.blog .pagination li a i {
     height: 17%;
     left: 0;
   }
-	.infos {
-		padding-bottom: 35px;
-	}
+
+  .infos {
+    padding-bottom: 35px;
+  }
+
   body.dark .bl-main>section:nth-child(4):not(.bl-expand) {
     background: #222;
   }
 
   .personal-info a.btn,
-	div.bl-panel-items a.btn {
+  div.bl-panel-items a.btn {
     display: block;
     width: 100%;
   }
@@ -1995,7 +2005,7 @@ body.blog .pagination li a i {
   }
 
   .resume-card.back .resume-card-name,
-	.resume-card-name {
+  .resume-card-name {
     opacity: 1;
   }
 
@@ -2013,7 +2023,7 @@ body.blog .pagination li a i {
   }
 
   .resume-card.resume-card-1,
-	.resume-card.resume-card-2 {
+  .resume-card.resume-card-2 {
     position: relative;
     transform: none !important;
   }
@@ -2055,8 +2065,9 @@ body.blog .pagination li a i {
   body.blog .container.page-title h2 {
     font-size: 35px;
   }
+
   .section-padding.section-padding-right-none {
-	  padding-right:24px !important;
+    padding-right: 24px !important;
   }
 
   .divider {
@@ -2071,8 +2082,10 @@ body.blog .pagination li a i {
     margin-top: 15px;
     padding: 0 15px;
   }
-  .resume-card-body.experience .resume-content h6, .resume-card-body.education .resume-content h6 {
-	  line-height:22px;
+
+  .resume-card-body.experience .resume-content h6,
+  .resume-card-body.education .resume-content h6 {
+    line-height: 22px;
   }
 
   .personal-info a.btn {
@@ -2097,7 +2110,9 @@ body.blog .pagination li a i {
     margin: 0;
   }
 
-  div.bl-panel-items nav span.bl-icon-close, div.bl-panel-items nav span.bl-next-work, div.bl-panel-items nav span.bl-previous-work {
+  div.bl-panel-items nav span.bl-icon-close,
+  div.bl-panel-items nav span.bl-next-work,
+  div.bl-panel-items nav span.bl-previous-work {
     color: #adadad;
     display: inline-block;
   }
@@ -2147,8 +2162,8 @@ body.blog .pagination li a i {
   }
 
   .bl-main>section:nth-child(2).bl-expand,
-	.bl-main>section:nth-child(3).bl-expand,
-	.bl-main>section:nth-child(4).bl-expand {
+  .bl-main>section:nth-child(3).bl-expand,
+  .bl-main>section:nth-child(4).bl-expand {
     top: 24px;
   }
 
@@ -2165,13 +2180,13 @@ body.blog .pagination li a i {
   }
 
   .bl-main>section:nth-child(4).bl-expand form>div,
-	.bl-main>section:nth-child(4).bl-expand .bl-content>div>div>div.row>div {
+  .bl-main>section:nth-child(4).bl-expand .bl-content>div>div>div.row>div {
     padding: 0;
   }
 
   #bl-work-items {
     margin-top: -22px;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
   }
 
   body.blog article h4 {
@@ -2235,7 +2250,9 @@ body.blog .pagination li a i {
     top: calc(49% - 45px);
   }
 
-  .bl-main>section:nth-child(2).bl-expand, .bl-main>section:nth-child(3).bl-expand, .bl-main>section:nth-child(4).bl-expand {
+  .bl-main>section:nth-child(2).bl-expand,
+  .bl-main>section:nth-child(3).bl-expand,
+  .bl-main>section:nth-child(4).bl-expand {
     top: 15px;
     height: calc(100% - 30px);
   }
@@ -2247,13 +2264,15 @@ body.blog .pagination li a i {
   .section-padding {
     padding: 0 15px !important;
   }
-.section-padding.section-padding-right-none {
-	  padding-right:15px !important;
+
+  .section-padding.section-padding-right-none {
+    padding-right: 15px !important;
   }
+
   #bl-work-items {
     padding: 0;
-	margin-bottom:15px;
-	  margin-top: -15px;
+    margin-bottom: 15px;
+    margin-top: -15px;
   }
 
   #bl-work-items>div {
@@ -2264,7 +2283,8 @@ body.blog .pagination li a i {
     padding: 15px 0 67px;
   }
 
-  div.bl-panel-items, div.bl-panel-items>div {
+  div.bl-panel-items,
+  div.bl-panel-items>div {
     height: calc(100% - 15px);
   }
 
@@ -2284,5 +2304,5 @@ body.blog .pagination li a i {
   .resume-card-body-container {
     padding: 15px;
   }
-  
+
 }
