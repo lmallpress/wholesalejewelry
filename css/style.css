@@ -752,14 +752,17 @@ section.bl-expand .bl-icon-close {
 ================================================== */
 
 
-/*** Personal informations ***/
+/*** Personal information ***/
 
 .infos {
   padding-bottom: 50px;
 }
 
-.profile-picture {
+.jewelry-picture {
   display: none;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
 .personal-info h6 {
